@@ -1,0 +1,28 @@
+{
+  "name": "usedcars",
+  "version": "0.0.1",
+  "description": "Used Cars ZH",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "json": "json-server --watch json/cars.json",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afriyy/usedcars.git"
+  },
+  "author": "Madarász Dávid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afriyy/usedcars/issues"
+  },
+  "homepage": "https://github.com/afriyy/usedcars#readme",
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
